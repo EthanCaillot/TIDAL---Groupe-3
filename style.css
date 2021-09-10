@@ -1,3 +1,40 @@
+.ContainerContact{  /* container contact */
+	max-width: 47%; /* Taille max du container */
+	margin: 10px ; /* espacement de 10 px en hauteur */
+	padding: 1em; /* Espacement entre le container et la zone de texte*/
+	background: #f4f7f8; /* Courleur du fond */
+    border-radius: 8px; /* angles arrondi */
+    font-family: Verdana, "Verdana", Times, serif; /* style d'écriture */
+    width: 100%; /* la div prend 100% de la place*/
+}
+
+.ContainerContact p { /* container des champs du formulaire*/
+    width: 100%; /* taille du champs*/
+    padding: 0.2em; /* espacement*/
+    margin: 8px 0; /* marge*/
+    border: 1px solid #ccc; /* bordures*/
+    border-radius: 8px; /* angles arrondi*/
+    resize: none; /* bloque la redimention de la zone de texte*/
+}
+
+.ContainerMaps{
+    max-width: 100%; /* Taille max du container */
+    font-family: Verdana, "Verdana", Times, serif; /* style d'écriture */
+    margin:1em; /* marges à droite */
+    text-align:center;
+}
+    
+.navbar ul {
+    /* padding: 0px; */
+    text-align: center;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    min-width: 200px;
+}
+
 body,
 h1,
 h2,
