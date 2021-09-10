@@ -35,23 +35,22 @@
     min-width: 200px;
 }
 
-.navbar a {
-    color: white;
-    font-size: 14px;
+body,
+h1,
+h2,
+p,
+div,
+section {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
-.navbar img {
-    width: 96px;
-    height: inherit;
-    margin-left: inherit;
-    margin-right: inherit;
-}
-.navbar {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    display: flex;
-    max-height: 60px;
-    width: 100%;
-    justify-content: left;
-    background-color: black;
-    margin-top: 0px;
-    /*position: fixed;*/
+
+.pagePatho {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
 }
