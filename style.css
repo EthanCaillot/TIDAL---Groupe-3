@@ -130,3 +130,31 @@ section {
     /*position: fixed;*/
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+    position:absolute;   /*maintient le foooter en bas */
+  }
+  
+  .contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;    /*taille police */
+    padding: 10px 0 15px; /*marges */
+  }
+  
+  .bloc {
+    width: 25%;
+    margin: 0 30px;
+  }
