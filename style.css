@@ -51,6 +51,11 @@ section {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 
+#pagePatho h2 {
+    font-size: 4em;
+    color: blanchedalmond;
+}
+
 .pagePatho {
     height: 100vh;
     background-repeat: no-repeat;
