@@ -51,9 +51,21 @@ section {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 
-#pagePatho h2 {
-    font-size: 4em;
+.pagePatho h2 {
+    font-size: 2em;
     color: blanchedalmond;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    margin: 0 5%;
+}
+
+.grid-item img{
+    max-width: 200%;
+    height: auto;
 }
 
 .pagePatho {
