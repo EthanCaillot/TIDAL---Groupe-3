@@ -1,12 +1,12 @@
 <?php
 $servernane = "localhost";
 $user = "sam";
-$pass = "dino*:
+$pass = "dino";
 $dbnane = "acuponcture";
 
-try (
+try {
 
-$conn = new PDO ("mysql:host=localhost; dbname=sdbnane* , $user, $pass);
+$conn = new PDO ("mysql:host=localhost ; dbname=$dbnane" , $user, $pass);
 } catch (PDOException $e) {
 print "Erreur !: " . Se-agetMessage() . "<br/>"; 
 die();
@@ -30,7 +30,7 @@ $smarty->assign("pathologies",$row);
 $raw = $req_sympt->fetchAlL();
 $smarty->assign("symptomes",$raw);
 
-$smarty->display('symptomes.tpl');
+$smarty->display("symptomes.tpl");
 
 
 ?>
