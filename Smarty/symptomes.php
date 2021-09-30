@@ -6,7 +6,7 @@ $dbnane = "acuponcture";
 
 try {
 
-$conn = new PDO ("mysql:host=localhost ; dbname=$dbnane" , $user, $pass);
+$conn = new PDO ("mysql:host=localhost ; dbname=$dbname" , $user, $pass);
 } catch (PDOException $e) {
 print "Erreur !: " . Se-agetMessage() . "<br/>"; 
 die();
