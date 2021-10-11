@@ -9,19 +9,21 @@
     
     <body onload="Footer()">
 		
-		<header>
-            <nav class="navbar">
-                <a href="../index.html">
-                    <img src="../images/accu.png">
-                </a>
-                <ul>
-                    <li><a href=../index.html>Accueil</a></li>
-                    <li><a href=Connexion.html>Connexion</a></li>
-                    <li><a href=recherchePatho.html>Liste Pathologies</a></li>
-                    <li><a href=Contact.html>A propos & Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+			<nav class="navbar">
+				<a href="index.php">
+					<img src="images/accu.png">
+				</a>
+				<ul>
+					<li><a href=index.php>Accueil</a></li>
+					<li><a href=recherchePatho.php>Liste Pathologies</a></li>
+					<li><a href=Contact.php>A propos & Contact</a></li>
+					<li style="float:right"><a href="register.php">S'inscrire</a></li>
+					<li style="float:right"><a href="login.php">Connexion</a></li>
+					<li style="float:right"><a href="logout.php">Déconnexion</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<div class="ContainerContact" style="float:left;" >
 				<h2>A PROPOS</h2>

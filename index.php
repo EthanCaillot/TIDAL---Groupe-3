@@ -23,15 +23,7 @@
 				</ul>
 			</nav>
 		</header>
-        <?php
-	        // Initialiser la session
-	        session_start();
-	        // Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
-	        if(!isset($_SESSION["username"])){
-		        header("Location: login.php");
-		        exit(); 
-	        }
-        ?>
+        
 		<h1>Bienvenue sur le site de l'association des acuponcteurs !</h1>
 
 		<div id="Footer"></div>

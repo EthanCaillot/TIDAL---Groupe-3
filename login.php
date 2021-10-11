@@ -1,11 +1,11 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-			<nav class="navbar">
+	<header>
+		<nav class="navbar">
 				<a href="index.php">
 					<img src="images/accu.png">
 				</a>
@@ -16,8 +16,8 @@
 					<li style="float:right"><a href="register.php">S'inscrire</a></li>
 
 				</ul>
-			</nav>
-		</header>
+		</nav>
+	</header>
 <?php
 require('config.php');
 session_start();
