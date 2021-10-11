@@ -27,16 +27,6 @@
     text-align:center;
 }
     
-.navbar ul {
-    /* padding: 0px; */
-    text-align: center;
-    list-style-type: none;
-}
-
-.navbar li {
-    display: inline-block;
-    min-width: 200px;
-}
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------RECHERCHE PATHO--------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -54,6 +44,11 @@ section {
 .pagePatho h2 {
     font-size: 2em;
     color: blanchedalmond;
+}
+
+a,
+li {
+    color: blanchedalmond; 
 }
 
 #grid-container {
@@ -81,6 +76,10 @@ section {
     background-image: url("");
     max-width: 100%;
     max-height: 100%;
+}
+
+#recherche h1,h2{
+    color: blanchedalmond;
 }
 
 #pathoMeridien {
