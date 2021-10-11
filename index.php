@@ -16,9 +16,9 @@
 					<li><a href=index.php>Accueil</a></li>
 					<li><a href=html/recherchePatho.html>Liste Pathologies</a></li>
 					<li><a href=html/Contact.html>A propos & Contact</a></li>
-					<li><a href="login.php">Connexion</a></li>
-					<li><a href="register.php">S'inscrire</a></li>
-					<li><a href="logout.php">Déconnexion</a></li>
+					<li style="float:right"><a href="register.php">S'inscrire</a></li>
+					<li style="float:right"><a href="login.php">Connexion</a></li>
+					<li style="float:right"><a href="logout.php">Déconnexion</a></li>
 				</ul>
 			</nav>
 		</header>
