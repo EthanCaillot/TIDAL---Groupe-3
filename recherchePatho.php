@@ -3,21 +3,23 @@
     <head>
         <title>Liste des pathologies</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body onload="Footer()">
         <header>
             <nav class="navbar">
-                <a href="../index.html">
-                    <img src="../images/accu.png">
-                </a>
-                <ul>
-                    <li><a href=../index.html>Accueil</a></li>
-                    <li><a href=Connexion.html>Connexion</a></li>
-                    <li><a href=recherchePatho.html>Liste Pathologies</a></li>
-                    <li><a href=Contact.html>A propos & Contact</a></li>
-                </ul>
-            </nav>
+				<a href="index.php">
+					<img src="images/accu.png">
+				</a>
+				<ul>
+					<li><a href=index.php>Accueil</a></li>
+					<li><a href=recherchePatho.php>Liste Pathologies</a></li>
+					<li><a href=Contact.php>A propos & Contact</a></li>
+					<li style="float:right"><a href="register.php">S'inscrire</a></li>
+					<li style="float:right"><a href="login.php">Connexion</a></li>
+					<li style="float:right"><a href="logout.php">Déconnexion</a></li>
+				</ul>
+			</nav>
         </header>
 
         <section id="recherche" class="pagePatho"></br>

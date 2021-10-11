@@ -4,6 +4,20 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<header>
+			<nav class="navbar">
+				<a href="index.php">
+					<img src="images/accu.png">
+				</a>
+				<ul>
+					<li><a href=index.php>Accueil</a></li>
+					<li><a href=recherchePatho.php>Liste Pathologies</a></li>
+					<li><a href=Contact.php>A propos & Contact</a></li>
+					<li style="float:right"><a href="register.php">S'inscrire</a></li>
+
+				</ul>
+			</nav>
+		</header>
 <?php
 require('config.php');
 session_start();
