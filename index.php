@@ -7,31 +7,35 @@
 		exit(); 
 	}
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
-	<link rel="stylesheet" href="style.css" />
+		<title>Accueil</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body class="accueil" onload="Footer()">
-	<header>
-        <nav class="navbar">
-            <a href="index.html">
-                <img src="images/accu.png">
-            </a>
-            <ul>
-                <li><a href=index.html>Accueil</a></li>
-                <li><a href=html/Connexion.html>Connexion</a></li>
-                <li><a href=html/recherchePatho.html>Liste Pathologies</a></li>
-                <li><a href=html/Contact.html>A propos & Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Bienvenue sur le site de l'association des acuponcteurs !</h1>
 
-    <div id="Footer"></div>
-    <script src='html/fonctions.js'></script>
-		<a href="logout.php">Déconnexion</a>
-		</div>
+	<body class="accueil" onload="Footer()">
+		<header>
+			<nav class="navbar">
+				<a href="index.php">
+					<img src="images/accu.png">
+				</a>
+				<ul>
+					<li><a href=index.php>Accueil</a></li>
+					<li><a href=html/recherchePatho.html>Liste Pathologies</a></li>
+					<li><a href=html/Contact.html>A propos & Contact</a></li>
+					<li><a href="login.php">Connexion</a></li>
+					<li><a href="register.php">S'inscrire</a></li>
+					<li><a href="logout.php">Déconnexion</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Bienvenue sur le site de l'association des acuponcteurs !</h1>
+
+		<div id="Footer"></div>
+		<script src='html/fonctions.js'></script>
 	</body>
 	
 </html>
