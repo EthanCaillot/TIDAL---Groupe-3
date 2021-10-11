@@ -116,11 +116,12 @@ li {
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 .navbar ul {
     /* padding: 0px; */
-    /*text-align: center;*/
+    text-align: center;
     list-style-type: none;
 }
 
 .navbar li {
+    border-right: 1px solid #bbb;
     display: inline-block;
     min-width: 200px;
 }
@@ -144,6 +145,10 @@ li {
     background-color: black;
     margin-top: 0px;
     /*position: fixed;*/
+}
+
+.active {
+    background-color: #4CAF50;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
