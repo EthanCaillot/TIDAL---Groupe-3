@@ -11,6 +11,7 @@
 
 <!DOCTYPE html>
 <html>
+	
 	<head>
 		<title>Accueil</title>
 		<meta charset="UTF-8">
