@@ -1,11 +1,12 @@
 ﻿<?php
 	// Initialiser la session
 	session_start();
+
 	// Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
-	if(!isset($_SESSION["username"])){
-		header("Location: login.php");
-		exit(); 
-	}
+	//if(!isset($_SESSION["username"])){
+		//header("Location: login.php");
+		//exit(); 
+	//}
 ?>
 
 <!DOCTYPE html>
@@ -26,9 +27,9 @@
 					<li><a href=index.php>Accueil</a></li>
 					<li><a href=html/recherchePatho.html>Liste Pathologies</a></li>
 					<li><a href=html/Contact.html>A propos & Contact</a></li>
-					<li><a href="login.php">Connexion</a></li>
-					<li><a href="register.php">S'inscrire</a></li>
-					<li><a href="logout.php">Déconnexion</a></li>
+					<li style="float:right"><a href="register.php">S'inscrire</a></li>
+					<li style="float:right"><a href="login.php">Connexion</a></li>
+					<li style="float:right"><a href="logout.php">Déconnexion</a></li>
 				</ul>
 			</nav>
 		</header>
