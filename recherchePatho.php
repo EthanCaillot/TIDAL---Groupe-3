@@ -124,8 +124,8 @@
         echo "<ul>\n";
         echo "<li>" . "<a href=\"search.php?id=$ID\">" .$idS . " " . $row . "</a></li>\n";
         echo "</ul>";
-        <?php
         }
+        ?>
         </body>
 </html>
 
