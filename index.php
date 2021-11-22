@@ -27,7 +27,7 @@
         
 		<img src="images/Massage.jpg" class="centre">
 
-		<p>Sur notre site vous pourrez faire des recherches sur vous en fonction de vos synptomes. Il suffit d'aller sur la page "Liste des Pathologies" et créer un filtre pour vos différents symptomes. Il vous resortira tout les potentiels points à soigner.</p>
+		<p>Sur notre site vous pourrez faire des recherches sur vous en fonction de vos symptômes. Il suffit d'aller sur la page "Liste des Pathologies" et créer un filtre pour vos différents symptômes. Il vous ressortira tout les points à soigner.</p>
 
 		<div id="Footer"></div>
 		<script src='fonctions.js'></script>
