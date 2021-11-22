@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style2.css" />
 </head>
 <body>
 	<header>
@@ -20,7 +20,9 @@
 	</header>
 <?php
 require('config.php');
+
 session_start();
+
 
 if (isset($_POST['username'])){
 	$username = stripslashes($_REQUEST['username']);
