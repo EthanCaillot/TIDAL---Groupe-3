@@ -13,7 +13,7 @@
 				</a>
 				<ul>
 					<li><a href=index.php>Accueil</a></li>
-					<li><a class="active" href=recherchePatho.php>Liste Pathologies</a></li>
+					<li><a href=recherchePatho.php>Liste Pathologies</a></li>
 					<li><a href=Contact.php>A propos & Contact</a></li>
 					<li style="float:right"><a href="register.php">S'inscrire</a></li>
 					<li style="float:right"><a href="login.php">Connexion</a></li>
@@ -98,7 +98,35 @@
         
         <div id="Footer"></div>
         <script src='fonctions.js'></script>
-    </body>
+        <?php
+        try
+        {
+            $bdd = new PDO('mysql:host=localhost;dbname=acuponcture', 'sam', 'test');
+        }
+        catch(Exception $e)
+        {
+            die('Erreur : '.$e->getMessage());
+        }
+        ?>
+        <form method="post" action="traitement.php">
+        
+            <label for="pays">Dans quel pays habitez-vous ?</label><br />-->
+            <select name="recherchePatho" id="maRecherche">
+        
+        <?php
+        
+        $reponse = $bdd->query('SELECT desc FROM keywords where name=$_GET["q"]');
+        
+        while ($donnees = $reponse->fetch())
+        {
+        $desc=$row['desc'];
+        $idS=$row['idS'];
+        echo "<ul>\n";
+        echo "<li>" . "<a href=\"search.php?id=$ID\">" .$idS . " " . $row . "</a></li>\n";
+        echo "</ul>";
+        <?php
+        }
+        </body>
 </html>
 
 <!--test -->
